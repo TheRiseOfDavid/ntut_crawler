@@ -1,0 +1,11 @@
+git add OOP_account_imformation.py
+git add OOP_browser.py
+git add OOP_main.py
+git add OOP_NTUT.py
+git add OOP_whispers_of_love.py
+git add POP_download_NTUT_captcha_picture.py
+git add POP_moving_file_once.py
+git add POP_NTUT_Ischool_Old.py
+git add POP_NTUT_Ischool_Plus.py
+git add POP_OCR_NTUT_captcha.py
+git add thanks_list.py

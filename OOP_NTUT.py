@@ -58,6 +58,9 @@ class NTUT(browser):
       elem.send_keys(input())
     '''    
     
+    #maintenance
+    self.is_maintenance()
+    
     #login
     elem = self.driver.find_element_by_class_name('l_icon01')
     elem.click()
@@ -95,7 +98,8 @@ class NTUT(browser):
     
     
   def is_maintenance(self):
-    if(self.driver.find_element_by_class_name('notice').text == "系統例行維護中，請過5分鐘再連線。"):
+    time.sleep(1)
+    if(self.driver.find_element_by_class_name('notice').text == "載入中..."):
       print("系統例行維護中，請過5分鐘再連線。")
       time.sleep(5)
       sys.exit()
